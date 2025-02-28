@@ -1,0 +1,21 @@
+proyecto/
+│── config/                         # 📌 Configuración y variables globales
+│   ├── __init__.py                 # (Vacío, hace que config sea un módulo)
+│   ├── config.py                    # Configuración (MongoDB, JWT, etc.)
+│
+│── controller/                      # 📌 Lógica de la app
+│   ├── __init__.py                  # (Vacío, para reconocerlo como módulo)
+│   ├── db_connection.py             # Módulo de conexión a MongoDB
+│   ├── auth_controller.py           # Lógica de autenticación (login, JWT, etc.)
+│
+│── data/                            # 📌 Archivos de datos CSV
+│   ├── archivo1.csv                 # Datos de ejemplo
+│   ├── archivo2.csv                 # Datos de ejemplo
+│   ├── CSVToMongoDB.py              # Script para cargar CSV en MongoDB
+│
+│── LoginVerification.py             # 📌 Archivo principal (Flask API)
+│── requirements.txt                 # 📌 Dependencias del proyecto
+│── README.md                        # 📌 Documentación del proyecto
+│── .gitignore                        # 📌 Archivos a ignorar en Git
+│
+│── venv/ (opcional)                 # Entorno virtual de Python

@@ -1,0 +1,11 @@
+{
+  "name": "multiple_face_recognition",
+  "version": "1.0.0",
+  "description": "APP para pasar lista con Vision Artificial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@Natasaur",
+  "license": "ISC"
+}
